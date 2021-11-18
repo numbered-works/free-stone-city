@@ -12,6 +12,6 @@
     src: url('altehaasgroteskbold-webfont.woff2') format('woff2'),
          url('altehaasgroteskbold-webfont.woff') format('woff');
     font-weight: bold;
-    font-style: bold;
+    font-style: normal;
 
 }
