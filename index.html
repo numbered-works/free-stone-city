@@ -54,6 +54,23 @@ img.spot { max-width: 50%; }
 figure { margin:0; padding: 0; width: 100%; }
 figcaption { color:#999; }
 
+::selection { background: #F7DC6F; }
+
+.key { position: relative; width: 100%; margin: 0 auto; }
+.key img { max-width: 100%; height: auto; display: block; }
+.key a { position: absolute; width: 5.68%; height: 10.22%; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-bottom:0; display: flex; justify-content: center; align-items: center; color: #fff; text-decoration: none; }
+.key a:hover { border-bottom:0; background: transparent; }
+
+.hut { left: 2.37%; top: 69.51%; }
+.hall { left: 10.6%; top: 15.5%; }
+.zome { left: 41.44%; top: 8.86%; }
+.station { left: 55.76%; top: 5.96%; }
+.keepers-home { left: 69.25%; top: 11.81%; }
+.workshop { left: 89.03%; top: 24.59%; }
+.bee-shed { left: 94.17%; top: 60.76%; width: 5.68%; }
+.fruit-trees { left: 64.4%; top: 75.35%; width: 5.68%; }
+.the-stones { left: 47.59%; top: 49.69%; width: 5.68%; }
+
 ol { padding-left: 0; }
 ol li { border-bottom: 2px solid black; padding: 7px 0; list-style-position: inside; }
 ol li:last-child { border-bottom: none }
@@ -121,7 +138,18 @@ footer { border-top: 2px solid black; padding: 7px 0 28px 0; }
 
 <h2 id="map">MAP</h2>
 
-<img src="images/map.jpg" Alt="The map shows a circle of eight enormous stones embedded in the earth, with a ninth stone - the tallest of the group - in the centre. The stone circle is surrounded by a ring of seven buildings in varying sizes and styles. There is a small cluster of trees on the eastern side of the circle. Features are numbered starting in the west, travelling clockwise around the circle." />
+<div class="key">
+  <a href="#1-hut" title="HUT" class="hut"></a>
+  <a href="#2-hall" title="HALL" class="hall"></a>
+  <a href="#3-zome" title="ZOME" class="zome"></a>
+  <a href="#4-station" title="STATION" class="station"></a>
+  <a href="#5-keepers-home" title="KEEPER’S HOME‬" class="keepers-home"></a>
+  <a href="#6-workshop" title="WORKSHOP" class="workshop"></a>
+  <a href="#7-bee-shed" title="BEE SHED" class="bee-shed"></a>
+  <a href="#8-fruit-trees" title="FRUIT TREES" class="fruit-trees"></a>
+  <a href="#9-the-stones" title="THE STONES" class="the-stones"></a>
+  <img src="images/map.jpg" Alt="The map shows a circle of eight enormous stones embedded in the earth, with a ninth stone - the tallest of the group - in the centre. The stone circle is surrounded by a ring of seven buildings in varying sizes and styles. There is a small cluster of trees on the eastern side of the circle. Features are numbered starting in the west, travelling clockwise around the circle." />
+</div>
 
 <h3 id="1-hut">1. HUT</h3>
 
